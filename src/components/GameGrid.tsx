@@ -8,7 +8,6 @@ import { GameQuery } from "../App";
 
 interface Props {
   gameQuery: GameQuery;
-
 }
 
 export const GameGrid = ({ gameQuery }: Props) => {
@@ -21,7 +20,7 @@ export const GameGrid = ({ gameQuery }: Props) => {
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
         padding="10px"
-        spacing={3}
+        spacing={6}
       >
         {isLoading &&
           skeletons.map((skeleton) => (
