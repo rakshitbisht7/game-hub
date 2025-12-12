@@ -26,7 +26,7 @@ CSS
 
 Vercel for deployment
 
-(Optional: Add any APIs used for fetching game data, e.g., RAWG API)
+(API used for fetching game data, RAWG API)
 
 📸 Screenshots
 Home Page
